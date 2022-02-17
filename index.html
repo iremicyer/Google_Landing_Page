@@ -1,36 +1,51 @@
 <!DOCTYPE html>
 <html>
+<style>
+	img{ position: relative;
+		right: 500px;
+		float:left;
+		width:300px;
+		height:300px;
+	}
+
+</style>
 <head>
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Netflix</title>
 
 </head>
 
-<body>
+<body style="background-image: url(https://media-cdn.t24.com.tr/media/library/2021/04/1618988351823-0-af-6-ce-3-e-b-27-a-4722-a-5-f-0-e-32-af-4-df-3045-what-is-netflix-5-en-1.png);">
 	<header class="showcase">
-		<div class="showcase-top"></div>
-		<img src="Images/logo.png" alt="Netflix">
+		<div class="container">
+					<img src="Images/logo.png" alt="Netflix">
+			
+					<a href="#" class="btn btn-rounded" style="background-color: red;color: white; position: relative; left: 1500px; font-size: 15px;">Sign In</a>
+				
+					<form action="action.html" style="border-radius: 30px; position: relative; left: 1600px;font-size: 15px;">			
+						<select>
+							<option value="English">English</option>
+							<option value="Turkish">Turkish</option>
+							<option value="French">French</option>
+						</select>						
+					</form>		
+	</div>
 
-	<a href="#" class="btn btn-rounded" style="background-color: red;color: white; position: relative; left: 1500px; font-size: 15px;">Sign In</a>
 
-	<form action="action.html" style="border-radius: 30px; position: relative; left: 1600px;font-size: 15px;">			
-		<select>
-			<option value="English">English</option>
-			<option value="Turkish">Turkish</option>
-		</select>
-		
-    </form>
 
-	<img src="Images/background.jpg" alt="Background" style="text-align: center;background-size: cover;height: 1500px">	
+	
+<!-- 
+	<img src="Images/background.jpg" alt="Background" style="text-align: center;background-size: cover;height:100%; width:100%;">	 -->
 
 	<!-- <body style='background-image:url(Images/background.jpg); background-size:100% 95%;background-position:fixed;'> -->
 
-<section class="tabs">
+<!-- <section class="tabs">
 	<div class="container">
 		<div id="tab-1" class="tab-item tab-border">
         <i class="fas fa- door-open fa-3x"></i>
@@ -45,33 +60,8 @@
 			<p class="hide-sm">pick You price</p>
 		</div>
 	</div>
-</section>
+</section> -->
 	</header>
-
 	
-	<footer>
-		<div class="panel">
-			<p> United Kingdom </p>
-		</div>
-
-		<div class="container-fluid">
-			
-			<div class="row">
-		
-			  <div class="col-sm-6"></div>
-			  <div class="col-sm-2">
-			
-				<ul>
-					<li><a href="#">Privacy</a></li>
-					<li><a href="#">Terms</a></li>
-					<li><a href="#">Settings</a></li>
-					</ul></div>
-			</div>
-		  </div>
-
-
-	
-		
-	</footer>
 </body>
 </html>
